@@ -1,0 +1,58 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+body{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    margin-top:100px;
+    background-color: #f7f7f7;
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+
+}
+
+.container
+{
+    background-color: white;
+    max-width:600px;
+    width:100%;
+    height:250px;
+    text-align: center;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    border-radius: 5px;
+}
+
+h1{
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+input{
+    width:300px;
+    height:25px;
+    padding:5px;
+    border:1px solid lightgray;
+    border-radius: 5px;
+    margin-top:10px;
+}
+
+#calbtn{
+    width:125px;
+    padding:10px 20px;
+    color:white;
+    background-color:#007bff;
+    border:none;
+    border-radius: 5px;
+    margin:10px 0;   
+}
+
+p{
+    font-size: 24px;
+}
+
+
+
