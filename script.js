@@ -6,13 +6,17 @@ btn.addEventListener("click", Calculator);
 
 function Calculator()
 {
+    if(dobInput.value==="")
+    {
+        alert("Please enter your birthday");
+    }
     const dob = new Date(dobInput.value);
     const today = new Date();
 
-    let diff=today-dob;
+    const diff=today-dob;
 
-    let days = diff/(1000*60*60*24);
-    let age= Math.round(days/365);
+    const days = diff/(1000*60*60*24);
+    const age= Math.floor(days/365);
 
     entry.textContent=age;
 
